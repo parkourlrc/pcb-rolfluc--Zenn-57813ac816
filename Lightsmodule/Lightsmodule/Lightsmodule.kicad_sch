@@ -3397,7 +3397,7 @@
 	)
 	(text "Buzzer Sounder"
 		(exclude_from_sim no)
-		(at 108.458 129.794 0)
+		(at 105.41 118.872 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3535,9 +3535,9 @@
 		)
 		(uuid "ca2be29b-e08a-4705-be28-6e9f763a1d04")
 	)
-	(text "f=1/1.5*R*0.000000820\n400=1/0.00000123R\nR=325k"
+	(text "f=1/1.5*R*0.000000820\n400R=1/0.00000123\nR=~2k. Using 2.7K based on testing"
 		(exclude_from_sim no)
-		(at 107.95 134.366 0)
+		(at 105.156 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9658,8 +9658,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "325k"
-			(at 102.87 154.686 90)
+		(property "Value" "2.7k"
+			(at 102.87 154.432 90)
 			(effects
 				(font
 					(size 1.27 1.27)
